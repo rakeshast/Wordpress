@@ -1,0 +1,277 @@
+2023-09-12T05:30:05+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-12T06:17:00+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php:4
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php(4): define('ABSPATH')
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc.php(130): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc.php(77): Wallet_System_For_Wc->load_dependencies()
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(82): Wallet_System_For_Wc->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(86): run_wallet_system_for_wc()
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('wallet-system-f...')
+#7 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://wordpres...', false)
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php on line 4
+
+2023-09-12T06:17:01+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php:4
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php(4): define('ABSPATH')
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc.php(130): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc.php(77): Wallet_System_For_Wc->load_dependencies()
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(82): Wallet_System_For_Wc->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(86): run_wallet_system_for_wc()
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('wallet-system-f...')
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php on line 4
+
+2023-09-12T06:17:01+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php:4
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php(4): define('ABSPATH')
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc.php(130): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc.php(77): Wallet_System_For_Wc->load_dependencies()
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(82): Wallet_System_For_Wc->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(86): run_wallet_system_for_wc()
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('wallet-system-f...')
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/public/class-wallet-credit-payment-gateway.php on line 4
+
+2023-09-12T08:41:06+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(167): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T08:41:21+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(167): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T08:44:27+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(168): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T08:44:43+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(168): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T08:46:38+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(168): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T08:46:44+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(168): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T08:46:57+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(168): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T09:07:51+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(160): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T09:10:25+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:77
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(128): WP_Hook->add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(442): add_filter('woocommerce_upd...', 'wswc_wallet_pay...', Array, 1)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(159): add_action('woocommerce_upd...', 'wswc_wallet_pay...', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(97): WC_Misha_Gateway->__construct()
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(70): WC_Payment_Gateways->init()
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-payment-gateways.php(43): WC_Payment_Gateways->__construct()
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-woocommerce.php(961): WC_Payment_Gateways::instance()
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(292): WooCommerce->payment_gateways()
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(82): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->get_incentive()
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/src/Internal/Admin/WcPayWelcomePage.php(100): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->must_be_visible()
+#10 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Automattic\WooCommerce\Internal\Admin\WcPayWelcomePage->register_payments_welcome_page('')
+#11 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#12 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#13 /opt/lampp/htdocs/wordpress/wp-admin/includes/menu.php(161): do_action('admin_menu', '')
+#14 /opt/lampp/htdocs/wordpress/wp-admin/menu.php(420): require_once('/opt/lampp/htdo...')
+#15 /opt/lampp/htdocs/wordpress/wp-admin/admin.php(158): require('/opt/lampp/htdo...')
+#16 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 77
+
+2023-09-12T10:43:48+00:00 CRITICAL Uncaught Error: Call to undefined function wp_json_decode() in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php:276
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1050): WC_Misha_Gateway->process_payment(500)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1279): WC_Checkout->process_order_payment(500, 'wswc_wallet_pay...')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(508): WC_Checkout->process_checkout()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WC_AJAX::checkout('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_checkou...')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WC_AJAX::do_wc_ajax('')
+#8 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#9 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php on line 276
+
+2023-09-12T10:46:34+00:00 CRITICAL Uncaught Error: Call to undefined function wp_json() in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php:277
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1050): WC_Misha_Gateway->process_payment(500)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-checkout.php(1279): WC_Checkout->process_order_payment(500, 'wswc_wallet_pay...')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(508): WC_Checkout->process_checkout()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WC_AJAX::checkout('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-ajax.php(96): do_action('wc_ajax_checkou...')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): WC_AJAX::do_wc_ajax('')
+#8 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(false, Array)
+#9 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#10 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(13): do_action('template_redire...')
+#11 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#13 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php on line 277
+

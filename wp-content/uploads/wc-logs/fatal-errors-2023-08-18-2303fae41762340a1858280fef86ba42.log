@@ -1,0 +1,250 @@
+2023-08-18T04:20:13+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/dompdf/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('woocommerce-ord...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('woocommerce-ord...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:20:14+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/dompdf/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:20:14+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/dompdf/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:22:43+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('woocommerce-ord...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('woocommerce-ord...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:22:44+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:22:44+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:25:18+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('woocommerce-ord...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('woocommerce-ord...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:25:19+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:25:19+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:26:06+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/dompdf/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('woocommerce-ord...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('woocommerce-ord...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:26:07+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/dompdf/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:26:07+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/dompdf/autoload.inc.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:32:59+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('woocommerce-ord...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('woocommerce-ord...', 'http://localhos...', false)
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:33:00+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T04:33:00+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/vender/autoload.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('woocommerce-ord...')
+#2 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 10
+
+2023-08-18T06:40:02+00:00 CRITICAL Uncaught Error: Class "Options" not found in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:178
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): wcopd_get_order_details_ajax_code('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_get_ord...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 178
+
+2023-08-18T06:40:16+00:00 CRITICAL Uncaught Error: Class "Options" not found in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php:178
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): wcopd_get_order_details_ajax_code('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_get_ord...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce-order-pdf/woocommerce-order-pdf.php on line 178
+
+2023-08-18T08:41:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php on line 10 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-includes/plugin.php:835
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php(10): plugin_dir_path()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(663): plugin_sandbox_scrape('wc-pdf-download...')
+#3 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wc-pdf-download...', 'http://localhos...', false)
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/plugin.php on line 835
+
+2023-08-18T08:41:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php on line 10 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-includes/plugin.php:835
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php(10): plugin_dir_path()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('wc-pdf-download...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/plugin.php on line 835
+
+2023-08-18T08:41:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function plugin_dir_path(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php on line 10 and exactly 1 expected in /opt/lampp/htdocs/wordpress/wp-includes/plugin.php:835
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php(10): plugin_dir_path()
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(2318): include_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(192): plugin_sandbox_scrape('wc-pdf-download...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/plugin.php on line 835
+
+2023-08-18T09:16:02+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:16:41+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:19:11+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:21:00+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:22:41+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:23:21+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:24:13+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:25:18+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:25:52+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:27:15+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php:1521
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1521): array_keys(NULL)
+#1 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1575): WP_List_Table->print_table_description()
+#2 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php on line 1521
+
+2023-08-18T09:35:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_nonce_url(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php on line 43 and at least 1 expected in /opt/lampp/htdocs/wordpress/wp-includes/functions.php:1854
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wc-pdf-download/wc-pdf-download.php(43): wp_nonce_url()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(312): custom_shop_order_column_content('download_pdf')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1387): do_action('manage_shop_ord...', 'download_pdf', 337)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1752): WP_Posts_List_Table->column_default(Object(WP_Post), 'download_pdf')
+#6 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-posts-list-table.php(1421): WP_List_Table->single_row_columns(Object(WP_Post))
+#7 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-posts-list-table.php(829): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#8 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-posts-list-table.php(805): WP_Posts_List_Table->_display_rows(Array, 0)
+#9 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1662): WP_Posts_List_Table->display_rows()
+#10 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1589): WP_List_Table->display_rows_or_placeholder()
+#11 /opt/lampp/htdocs/wordpress/wp-admin/edit.php(495): WP_List_Table->display()
+#12 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/functions.php on line 1854
+

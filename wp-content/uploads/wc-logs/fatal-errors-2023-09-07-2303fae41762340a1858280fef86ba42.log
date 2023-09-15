@@ -1,0 +1,370 @@
+2023-09-07T03:49:19+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-07T07:57:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:57:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:57:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:57:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:02+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:19+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T07:58:41+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wallet_system_for_wc_my_account_wallet_content" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-template-functions.php(3213): do_action('woocommerce_acc...', '')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): woocommerce_account_content('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/myaccount/my-account.php(34): do_action('woocommerce_acc...')
+#7 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(119): wc_get_template('myaccount/my-ac...', Array)
+#9 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-my-account.php(72): WC_Shortcode_My_Account::my_account('')
+#10 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_My_Account::output('')
+#11 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(115): WC_Shortcodes::shortcode_wrapper(Array, '')
+#12 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::my_account('', '', 'woocommerce_my_...')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_my...')
+#15 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_my...')
+#16 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#17 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#18 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#19 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#20 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#21 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#22 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T08:09:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "misha_add_endpoint" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-settings.php(632): do_action('init')
+#3 /opt/lampp/htdocs/wordpress/wp-config.php(102): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T10:04:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class Wallet_System_For_Wc_Helper does not have a method "add_custom_capabilities" in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-settings.php(632): do_action('init')
+#3 /opt/lampp/htdocs/wordpress/wp-config.php(102): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/wordpress/wp-load.php(50): require_once('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-09-07T10:17:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wallet_System_For_Wc_Admin::wallet_system_for_wc_user_column_content(), 1 passed in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 312 and exactly 3 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php:161
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(312): Wallet_System_For_Wc_Admin->wallet_system_for_wc_user_column_content('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-users-list-table.php(625): apply_filters('manage_users_cu...', '', 'wallet_balance', 1)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-users-list-table.php(415): WP_Users_List_Table->single_row(Object(WP_User), '', '', '2')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1662): WP_Users_List_Table->display_rows()
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1589): WP_List_Table->display_rows_or_placeholder()
+#6 /opt/lampp/htdocs/wordpress/wp-admin/users.php(730): WP_List_Table->display()
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php on line 161
+
+2023-09-07T10:18:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wallet_System_For_Wc_Admin::wallet_system_for_wc_user_column_content(), 2 passed in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 312 and exactly 3 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php:161
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(312): Wallet_System_For_Wc_Admin->wallet_system_for_wc_user_column_content('', 'wallet_balance')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-users-list-table.php(625): apply_filters('manage_users_cu...', '', 'wallet_balance', 1)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-users-list-table.php(415): WP_Users_List_Table->single_row(Object(WP_User), '', '', '2')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1662): WP_Users_List_Table->display_rows()
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1589): WP_List_Table->display_rows_or_placeholder()
+#6 /opt/lampp/htdocs/wordpress/wp-admin/users.php(730): WP_List_Table->display()
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php on line 161
+
+2023-09-07T10:18:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wallet_System_For_Wc_Admin::wallet_system_for_wc_user_column_content(), 1 passed in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 312 and exactly 3 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php:161
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(312): Wallet_System_For_Wc_Admin->wallet_system_for_wc_user_column_content('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-users-list-table.php(625): apply_filters('manage_users_cu...', '', 'wallet_balance', 1)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-users-list-table.php(415): WP_Users_List_Table->single_row(Object(WP_User), '', '', '2')
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1662): WP_Users_List_Table->display_rows()
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/class-wp-list-table.php(1589): WP_List_Table->display_rows_or_placeholder()
+#6 /opt/lampp/htdocs/wordpress/wp-admin/users.php(730): WP_List_Table->display()
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php on line 161
+

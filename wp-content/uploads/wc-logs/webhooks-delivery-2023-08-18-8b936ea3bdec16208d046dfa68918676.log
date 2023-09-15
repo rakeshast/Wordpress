@@ -1,0 +1,73 @@
+2023-08-18T06:49:19+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => aba50113c2a002b399802e221e58c69e
+            [Date] => Aug 18, 2023 @ 6:49
+            [URL] => https://pipedream.com/@testing12354/invite?token=5063f97701462af8b016e9c9a756a1cb
+            [Duration] => 0.92423
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.0.2 Hookshot (WordPress/6.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/wordpress/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => nnvgSGNWgYVBHBnRfk11SEGoSpbVUn4iK9h7/gg2WEE=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => aba50113c2a002b399802e221e58c69e
+                        )
+
+                )
+
+            [Body] => {\"id\":337,\"parent_id\":0,\"status\":\"on-hold\",\"currency\":\"INR\",\"version\":\"8.0.2\",\"prices_include_tax\":false,\"date_created\":\"2023-08-18T06:48:47\",\"date_modified\":\"2023-08-18T06:48:47\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"51.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_7v82b25ukGanN\",\"billing\":{\"first_name\":\"Rakesh\",\"last_name\":\"Bokde\",\"company\":\"testing\",\"address_1\":\"testing address\",\"address_2\":\"tesitng street\",\"city\":\"testing address\",\"state\":\"GJ\",\"postcode\":\"580038\",\"country\":\"IN\",\"email\":\"testing@gmail.com\",\"phone\":\"7489491430\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/114.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"12cab66371520aab60215bc46ca8ee60\",\"number\":\"337\",\"meta_data\":[{\"id\":2736,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":16,\"name\":\"Album\",\"product_id\":232,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"15.00\",\"subtotal_tax\":\"0.00\",\"total\":\"15.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-album\",\"price\":15,\"image\":{\"id\":\"261\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/album-1.jpg\"},\"parent_name\":null},{\"id\":17,\"name\":\"Beanie\",\"product_id\":224,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"18.00\",\"subtotal_tax\":\"0.00\",\"total\":\"18.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-beanie\",\"price\":18,\"image\":{\"id\":\"253\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/beanie-2.jpg\"},\"parent_name\":null},{\"id\":18,\"name\":\"Beanie with Logo\",\"product_id\":241,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"18.00\",\"subtotal_tax\":\"0.00\",\"total\":\"18.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"Woo-beanie-logo\",\"price\":18,\"image\":{\"id\":\"264\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/beanie-with-logo-1.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/localhost\\/wordpress\\/checkout\\/order-pay\\/337\\/?pay_for_order=true&key=wc_order_7v82b25ukGanN\",\"is_editable\":true,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-08-18T06:48:47\",\"date_modified_gmt\":\"2023-08-18T06:48:47\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"\\u20b9\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\\/337\"}],\"collection\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 160
+                                    [date] => Fri, 18 Aug 2023 06:49:19 GMT
+                                    [content-security-policy] => default-src 'none'
+                                    [x-dns-prefetch-control] => off
+                                    [expect-ct] => max-age=0
+                                    [strict-transport-security] => max-age=15552000
+                                    [x-download-options] => noopen
+                                    [x-content-type-options] => nosniff
+                                    [x-permitted-cross-domain-policies] => none
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [x-xss-protection] => 0
+                                    [vary] => Accept-Encoding
+                                    [x-cache] => Error from cloudfront
+                                    [via] => 1.1 e3fa108e9b3fe9d22878ae63261b1a56.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => BOM78-P6
+                                    [x-amz-cf-id] => eJp82COJKr_0t9_cNCj_u3h4s0yt0HLYN-IqSKlmghkAfZI6QvlJuw==
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /@testing12354/invite</pre>
+</body>
+</html>
+
+                )
+
+        )
+
+)
+

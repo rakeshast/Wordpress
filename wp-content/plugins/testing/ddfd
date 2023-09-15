@@ -1,0 +1,303 @@
+
+<?php
+/**
+ * Plugin Name: Testing
+ * Plugin URI: http://your-plugin-url.com
+ * Description: A brief description of your plugin.
+ * Version: 1.0.0
+ * Author: Your Name
+ * Author URI: http://your-website.com
+ * License: GPL2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: your-custom-plugin
+ */
+
+
+// Prevent direct access to the plugin file.
+defined('ABSPATH') or die('No direct access allowed.');
+
+
+// Register the activation hook to trigger the table creation function
+// register_activation_hook(__FILE__, 'my_plugin_create_table');
+// Create Shortcode for custom form generate 
+add_action('init', 'custom_plugin_init');
+
+
+
+
+
+// function my_plugin_create_table() {
+//     global $wpdb; // WordPress database access object
+
+//     $table_name = 'custom_table'; // Replace this with the name of the table you want to check
+//     if (is_data_table_exists($table_name)) {
+//         // echo "The table exists!";
+//     } else {
+        
+//         $table_name1 = $wpdb->prefix . $table_name; // Replace 'custom_table' with your desired table name
+
+//         $charset_collate = $wpdb->get_charset_collate();
+
+//         // SQL statement to create the table
+//         $sql = "CREATE TABLE $table_name1 (
+//             id INT(11) NOT NULL AUTO_INCREMENT,
+//             name VARCHAR(255) NOT NULL,
+//             email TEXT,
+//             mobile INT(11),
+//             PRIMARY KEY (id)
+//         ) $charset_collate;";
+
+//         require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
+//         dbDelta($sql);
+
+//     }
+    
+// }
+
+// function is_data_table_exists($table_name) {
+//     global $wpdb;
+//     $table = $wpdb->prefix . $table_name;
+//     $query = "SHOW TABLES LIKE %s";
+//     $result = $wpdb->get_var($wpdb->prepare($query, $table));
+
+//     return !empty($result);
+// }
+
+
+
+
+function custom_plugin_init() {
+    // Your plugin code here
+    add_shortcode('booking', 'custom_form_shortcode');
+}
+add_action('init', 'custom_plugin_init');
+
+
+// Step 3: Define the shortcode function to generate the form.
+function custom_form_shortcode() {
+    ob_start();
+    
+    ?>
+    <form id="custom-form" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" >
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" >
+
+        <label for="mobile">Mobile:</label>
+        <input type="number" name="mobile" id="mobile">
+        
+
+        <input type="hidden" name="action" value="custom_form_submission">
+        <?php wp_nonce_field('custom_form_submission_nonce', 'custom_form_nonce'); ?>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <?php
+    checkErrorsMsg();
+    return ob_get_clean();
+}
+
+
+
+// Step 4: Handle form submission and save data to the database.
+function save_form_data() {
+    if (isset($_POST['custom_form_nonce']) && wp_verify_nonce($_POST['custom_form_nonce'], 'custom_form_submission_nonce')) {
+        // wp_die();
+
+        $errors = array();
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'custom_table';
+        
+        $name = sanitize_text_field($_POST['name']);
+        $email = sanitize_email($_POST['email']);
+        $mobile = absint($_POST['mobile']);
+        
+        if (empty($name)) {
+            $errors['name'] = "Please enter your name";
+        }
+        if (empty($email)) {
+            $errors['email'] = "Please enter your email";
+        }
+        if (empty($mobile)) {
+            $errors['mobile'] = "Please enter your mobile number";
+        }
+
+        if (empty($errors)) {
+            $wpdb->insert($table_name, array(
+                'name' => $name,
+                'email' => $email,
+                'mobile' => $mobile
+            ));
+            wp_redirect(esc_url($_SERVER['REQUEST_URI']));
+            exit;
+        }else{
+            checkErrorsMsg();
+            wp_redirect(esc_url($_SERVER['REQUEST_URI']));
+            exit;
+        }
+
+        
+       
+        
+    }
+
+}
+add_action('init', 'save_form_data');
+
+
+// Step 5 (optional): Add necessary JavaScript for form validation.
+function custom_form_scripts() {
+    wp_enqueue_script('custom-form-validation', plugins_url('js/custom-form-validation.js', __FILE__), array('jQuery'), '1.0', true);
+}
+add_action('wp_enqueue_scripts', 'custom_form_scripts');
+
+
+
+// Function to handle form submission and error checking
+function checkErrorsMsg() {
+    
+    if (isset($_POST['custom_form_nonce']) && wp_verify_nonce($_POST['custom_form_nonce'], 'custom_form_submission_nonce')) {
+        $error = array();
+        $name = sanitize_text_field($_POST['name']);
+        $email = sanitize_email($_POST['email']);
+        $mobile = absint($_POST['mobile']);
+        
+        if (empty($name)) {
+            $errors['name'] = "Please enter your name";
+        }
+        if (empty($email)) {
+            $errors['email'] = "Please enter your email";
+        }
+        if (empty($mobile)) {
+            $errors['mobile'] = "Please enter your mobile number";
+        }
+
+        if (empty($errors)) {
+            return true;
+        }else{
+            echo "<ul>";
+            foreach($errors as $error){
+                echo "<li>" .$error. "</li>";
+            }
+            echo "</ul>";
+        }
+       
+    }
+   
+}
+
+
+
+
+// function process_custom_form_submission() {
+//     if (isset($_POST['custom_form_nonce']) && wp_verify_nonce($_POST['custom_form_nonce'], 'custom_form_submission_nonce') ) {
+
+//         wp_die();
+//         exit();
+
+//         // Sanitize and validate your form fields here
+//         $field_value = "working";
+
+//         // Save the data to the database (you can use a custom table or the existing WordPress database tables)
+//         global $wpdb;
+//         $table_name = $wpdb->prefix . 'custom_table'; // Replace 'custom_form_data' with your table name
+//         $wpdb->insert($table_name, array('name' => $field_value, 'email' => 'aryan@gmail.com', 'mobile' => 7489491430 ));
+
+//         // Redirect back to the form page after submission (optional)
+//         wp_redirect(get_permalink()); // Change 'get_permalink()' with the URL of your form page
+//         exit;
+//     }
+// }
+// add_action('admin_post_nopriv_custom_form_submission', 'process_custom_form_submission');
+// add_action('admin_post_custom_form_submission', 'process_custom_form_submission');
+
+// // In your theme's functions.php file or in your plugin file
+// add_action('admin_post_nopriv_custom_form_submission', 'process_custom_form');
+// add_action('admin_post_custom_form_submission', 'process_custom_form');
+
+// function process_custom_form() {
+//     if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['custom_form_nonce'])) {
+
+//         wp_die("working");
+//         // Verify nonce to prevent CSRF attacks
+//         if (wp_verify_nonce($_POST['custom_form_nonce'], 'custom_form_submission')) {
+//             global $wpdb; // WordPress database access object
+
+//             // Retrieve and sanitize form data
+//             $name = sanitize_text_field($_POST["name"]);
+//             $email = sanitize_email($_POST["email"]);
+//             $mobile = absint($_POST["mobile"]);
+
+//             // Insert data into the custom database table
+//             $table_name = $wpdb->prefix . 'custom_table'; // Replace 'custom_table' with your custom table name
+
+//             $wpdb->insert(
+//                 $table_name,
+//                 array(
+//                     'name' => $name,
+//                     'email' => $email,
+//                     'message' => $mobile,
+//                 )
+//             );
+//         }
+
+//         // Redirect back to the form page after submission (optional)
+//         wp_redirect(get_permalink()); // Change 'get_permalink()' with the URL of your form page
+//         exit;
+//     }
+// }
+
+// $atts = shortcode_atts(array(
+//     'name' => 'Guest',
+//     'email' => 'testing@gmail.com',
+//     'mobile' => 7489491430,
+// ), $atts);
+
+
+// // global $wpdb;
+// // $results = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}options", OBJECT );
+// global $wpdb;
+// // $results = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}options WHERE option_id = 1147", OBJECT );
+
+// $wpdb->query(
+//     $wpdb->prepare(
+//        "INSERT INTO $wpdb->custom_table
+//        ( name, email, mobile )
+//        VALUES ( %s, %s, %d )",
+//        $atts['name'],
+//        $atts['email'],
+//        $atts['mobile'],
+//     )
+// );
+
+
+
+
+
+
+
+// if (count($results) > 0){ ?>
+<!-- //         <table style="width:500px;">
+//             <tr>
+//                 <th>option_id</th>
+//                 <th>option_name</th>
+//                 <th>option_value</th>
+//                 <th>autoload</th>
+//             </tr>  -->
+//             <?php //foreach($results as $result){ ?> 
+<!-- //                 <tr>
+//                     <th><?php// echo $result->option_id; ?></th>
+//                     <th><?php //echo $result->option_name; ?></th>
+//                     <th><?php // echo $result->option_value; ?></th>
+//                     <th><?php// echo $result->autoload; ?></th>
+//                 </tr> -->
+//             <?php //} ?>    
+<!-- //         <table> -->
+//     <?php      
+// }
+
+// return 'Hello, ' . esc_attr($atts['name']) . '!';

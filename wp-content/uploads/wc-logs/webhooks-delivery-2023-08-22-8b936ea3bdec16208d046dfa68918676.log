@@ -1,0 +1,292 @@
+2023-08-22T04:35:23+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => e7b26bc4c58105ce1d660ef9aadc9cee
+            [Date] => Aug 22, 2023 @ 4:35
+            [URL] => https://pipedream.com/@testing12354/invite?token=5063f97701462af8b016e9c9a756a1cb
+            [Duration] => 0.99421
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.0.2 Hookshot (WordPress/6.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/wordpress/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 0JZgo2FZkq8s0wsGtDOvRqL3vxoV2AzSdbGuWecsuIQ=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => e7b26bc4c58105ce1d660ef9aadc9cee
+                        )
+
+                )
+
+            [Body] => {\"id\":343,\"parent_id\":0,\"status\":\"on-hold\",\"currency\":\"INR\",\"version\":\"8.0.2\",\"prices_include_tax\":false,\"date_created\":\"2023-08-22T04:34:45\",\"date_modified\":\"2023-08-22T04:34:46\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"15.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_wlzZPnVuGAHB4\",\"billing\":{\"first_name\":\"Rakesh\",\"last_name\":\"Bokde\",\"company\":\"testing\",\"address_1\":\"testing address\",\"address_2\":\"tesitng street\",\"city\":\"testing address\",\"state\":\"GJ\",\"postcode\":\"580038\",\"country\":\"IN\",\"email\":\"testing@gmail.com\",\"phone\":\"7489491430\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/116.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"44a5ce7975329a392c3008e4415b1817\",\"number\":\"343\",\"meta_data\":[{\"id\":2953,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":19,\"name\":\"Album\",\"product_id\":232,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"15.00\",\"subtotal_tax\":\"0.00\",\"total\":\"15.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-album\",\"price\":15,\"image\":{\"id\":\"261\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/album-1.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/localhost\\/wordpress\\/checkout\\/order-pay\\/343\\/?pay_for_order=true&key=wc_order_wlzZPnVuGAHB4\",\"is_editable\":true,\"needs_payment\":false,\"needs_processing\":false,\"date_created_gmt\":\"2023-08-22T04:34:45\",\"date_modified_gmt\":\"2023-08-22T04:34:46\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"\\u20b9\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\\/343\"}],\"collection\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 160
+                                    [date] => Tue, 22 Aug 2023 04:35:22 GMT
+                                    [content-security-policy] => default-src 'none'
+                                    [x-dns-prefetch-control] => off
+                                    [expect-ct] => max-age=0
+                                    [strict-transport-security] => max-age=15552000
+                                    [x-download-options] => noopen
+                                    [x-content-type-options] => nosniff
+                                    [x-permitted-cross-domain-policies] => none
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [x-xss-protection] => 0
+                                    [vary] => Accept-Encoding
+                                    [x-cache] => Error from cloudfront
+                                    [via] => 1.1 81cb834df54ac2b7faf516b396e9f83e.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => MAA50-P1
+                                    [x-amz-cf-id] => qs_klQSf3B3TYv2qLit7DpOIYbAj0j9LUWREnCVczbM0otks4ew8RA==
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /@testing12354/invite</pre>
+</body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-08-22T04:38:36+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 12509c27675e6e5498ba1187f7a9c6d0
+            [Date] => Aug 22, 2023 @ 4:38
+            [URL] => https://pipedream.com/@testing12354/invite?token=5063f97701462af8b016e9c9a756a1cb
+            [Duration] => 0.83969
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.0.2 Hookshot (WordPress/6.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/wordpress/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 1jE4kzcfC57DDoSw3sR01CxESX+an5ujJsCGcAQyL9w=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 12509c27675e6e5498ba1187f7a9c6d0
+                        )
+
+                )
+
+            [Body] => {\"id\":345,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"INR\",\"version\":\"8.0.2\",\"prices_include_tax\":false,\"date_created\":\"2023-08-22T04:38:01\",\"date_modified\":\"2023-08-22T04:38:01\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"16.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_I9u9QXHScgfDB\",\"billing\":{\"first_name\":\"Rakesh\",\"last_name\":\"Bokde\",\"company\":\"testing\",\"address_1\":\"testing address\",\"address_2\":\"tesitng street\",\"city\":\"testing address\",\"state\":\"GJ\",\"postcode\":\"580038\",\"country\":\"IN\",\"email\":\"testing@gmail.com\",\"phone\":\"7489491430\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/116.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"23c95f2747baf234ea0355f6ad6537c6\",\"number\":\"345\",\"meta_data\":[{\"id\":3025,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":20,\"name\":\"Cap\",\"product_id\":226,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"16.00\",\"subtotal_tax\":\"0.00\",\"total\":\"16.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-cap\",\"price\":16,\"image\":{\"id\":\"255\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/cap-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/localhost\\/wordpress\\/checkout\\/order-pay\\/345\\/?pay_for_order=true&key=wc_order_I9u9QXHScgfDB\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-08-22T04:38:01\",\"date_modified_gmt\":\"2023-08-22T04:38:01\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"\\u20b9\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\\/345\"}],\"collection\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 160
+                                    [date] => Tue, 22 Aug 2023 04:38:36 GMT
+                                    [content-security-policy] => default-src 'none'
+                                    [x-dns-prefetch-control] => off
+                                    [expect-ct] => max-age=0
+                                    [strict-transport-security] => max-age=15552000
+                                    [x-download-options] => noopen
+                                    [x-content-type-options] => nosniff
+                                    [x-permitted-cross-domain-policies] => none
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [x-xss-protection] => 0
+                                    [vary] => Accept-Encoding
+                                    [x-cache] => Error from cloudfront
+                                    [via] => 1.1 644569daa9f87ded2625dfb4d910ec5e.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => BOM78-P6
+                                    [x-amz-cf-id] => hVLIExc9OQ3we53BARPXZE1naXUQa88Ci2CS9Q3bZc0ojfWI-xKoZg==
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /@testing12354/invite</pre>
+</body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-08-22T04:42:35+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 2ccf916d4967e9b4445fc6e239c755bf
+            [Date] => Aug 22, 2023 @ 4:42
+            [URL] => https://pipedream.com/@testing12354/invite?token=5063f97701462af8b016e9c9a756a1cb
+            [Duration] => 0.81787
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.0.2 Hookshot (WordPress/6.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/wordpress/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => 5pZ4bKK4F/MUAHmeYJEKsC5O8QA8Te53MnjWx852NnA=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 2ccf916d4967e9b4445fc6e239c755bf
+                        )
+
+                )
+
+            [Body] => {\"id\":347,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"INR\",\"version\":\"8.0.2\",\"prices_include_tax\":false,\"date_created\":\"2023-08-22T04:42:15\",\"date_modified\":\"2023-08-22T04:42:15\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"18.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_XZRAqoP3rCTIo\",\"billing\":{\"first_name\":\"Rakesh\",\"last_name\":\"Bokde\",\"company\":\"testing\",\"address_1\":\"testing address\",\"address_2\":\"tesitng street\",\"city\":\"testing address\",\"state\":\"GJ\",\"postcode\":\"580038\",\"country\":\"IN\",\"email\":\"testing@gmail.com\",\"phone\":\"7489491430\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/116.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"fc4297a73b21664d298a54c8e7585629\",\"number\":\"347\",\"meta_data\":[{\"id\":3097,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":21,\"name\":\"Beanie\",\"product_id\":224,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"18.00\",\"subtotal_tax\":\"0.00\",\"total\":\"18.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-beanie\",\"price\":18,\"image\":{\"id\":\"253\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/beanie-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/localhost\\/wordpress\\/checkout\\/order-pay\\/347\\/?pay_for_order=true&key=wc_order_XZRAqoP3rCTIo\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-08-22T04:42:15\",\"date_modified_gmt\":\"2023-08-22T04:42:15\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"\\u20b9\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\\/347\"}],\"collection\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 160
+                                    [date] => Tue, 22 Aug 2023 04:42:35 GMT
+                                    [content-security-policy] => default-src 'none'
+                                    [x-dns-prefetch-control] => off
+                                    [expect-ct] => max-age=0
+                                    [strict-transport-security] => max-age=15552000
+                                    [x-download-options] => noopen
+                                    [x-content-type-options] => nosniff
+                                    [x-permitted-cross-domain-policies] => none
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [x-xss-protection] => 0
+                                    [vary] => Accept-Encoding
+                                    [x-cache] => Error from cloudfront
+                                    [via] => 1.1 2e90b79eb3e76e45725d5cbfc5281eae.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => BOM78-P6
+                                    [x-amz-cf-id] => Rw2XQA7DEBZ8OSjaop5Ce4SSpHKpm9MvnZStQbxGQIdjDCImgxNMMQ==
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /@testing12354/invite</pre>
+</body>
+</html>
+
+                )
+
+        )
+
+)
+
+2023-08-22T04:42:36+00:00 INFO Array
+(
+    [Webhook Delivery] => Array
+        (
+            [Delivery ID] => 78911e94e5c3f5283c77eb72bda1c184
+            [Date] => Aug 22, 2023 @ 4:42
+            [URL] => https://pipedream.com/@testing12354/invite?token=5063f97701462af8b016e9c9a756a1cb
+            [Duration] => 0.66911
+            [Request] => Array
+                (
+                    [Method] => POST
+                    [Headers] => Array
+                        (
+                            [User-Agent] => WooCommerce/8.0.2 Hookshot (WordPress/6.3)
+                            [Content-Type] => application/json
+                            [X-WC-Webhook-Source] => http://localhost/wordpress/
+                            [X-WC-Webhook-Topic] => order.updated
+                            [X-WC-Webhook-Resource] => order
+                            [X-WC-Webhook-Event] => updated
+                            [X-WC-Webhook-Signature] => nvCXkKYWRkm3ybLBguu282sZNn53VWfe548xol29Mlw=
+                            [X-WC-Webhook-ID] => 1
+                            [X-WC-Webhook-Delivery-ID] => 78911e94e5c3f5283c77eb72bda1c184
+                        )
+
+                )
+
+            [Body] => {\"id\":348,\"parent_id\":0,\"status\":\"processing\",\"currency\":\"INR\",\"version\":\"8.0.2\",\"prices_include_tax\":false,\"date_created\":\"2023-08-22T04:42:35\",\"date_modified\":\"2023-08-22T04:42:35\",\"discount_total\":\"0.00\",\"discount_tax\":\"0.00\",\"shipping_total\":\"0.00\",\"shipping_tax\":\"0.00\",\"cart_tax\":\"0.00\",\"total\":\"18.00\",\"total_tax\":\"0.00\",\"customer_id\":1,\"order_key\":\"wc_order_lexVb2fvvQ9Dx\",\"billing\":{\"first_name\":\"Rakesh\",\"last_name\":\"Bokde\",\"company\":\"testing\",\"address_1\":\"testing address\",\"address_2\":\"tesitng street\",\"city\":\"testing address\",\"state\":\"GJ\",\"postcode\":\"580038\",\"country\":\"IN\",\"email\":\"testing@gmail.com\",\"phone\":\"7489491430\"},\"shipping\":{\"first_name\":\"\",\"last_name\":\"\",\"company\":\"\",\"address_1\":\"\",\"address_2\":\"\",\"city\":\"\",\"state\":\"\",\"postcode\":\"\",\"country\":\"\",\"phone\":\"\"},\"payment_method\":\"cod\",\"payment_method_title\":\"Cash on delivery\",\"transaction_id\":\"\",\"customer_ip_address\":\"::1\",\"customer_user_agent\":\"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/116.0.0.0 Safari\\/537.36\",\"created_via\":\"checkout\",\"customer_note\":\"\",\"date_completed\":null,\"date_paid\":null,\"cart_hash\":\"fc4297a73b21664d298a54c8e7585629\",\"number\":\"348\",\"meta_data\":[{\"id\":3133,\"key\":\"is_vat_exempt\",\"value\":\"no\"}],\"line_items\":[{\"id\":22,\"name\":\"Beanie\",\"product_id\":224,\"variation_id\":0,\"quantity\":1,\"tax_class\":\"\",\"subtotal\":\"18.00\",\"subtotal_tax\":\"0.00\",\"total\":\"18.00\",\"total_tax\":\"0.00\",\"taxes\":[],\"meta_data\":[],\"sku\":\"woo-beanie\",\"price\":18,\"image\":{\"id\":\"253\",\"src\":\"http:\\/\\/localhost\\/wordpress\\/wp-content\\/uploads\\/2023\\/08\\/beanie-2.jpg\"},\"parent_name\":null}],\"tax_lines\":[],\"shipping_lines\":[],\"fee_lines\":[],\"coupon_lines\":[],\"refunds\":[],\"payment_url\":\"http:\\/\\/localhost\\/wordpress\\/checkout\\/order-pay\\/348\\/?pay_for_order=true&key=wc_order_lexVb2fvvQ9Dx\",\"is_editable\":false,\"needs_payment\":false,\"needs_processing\":true,\"date_created_gmt\":\"2023-08-22T04:42:35\",\"date_modified_gmt\":\"2023-08-22T04:42:35\",\"date_completed_gmt\":null,\"date_paid_gmt\":null,\"currency_symbol\":\"\\u20b9\",\"_links\":{\"self\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\\/348\"}],\"collection\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/orders\"}],\"customer\":[{\"href\":\"http:\\/\\/localhost\\/wordpress\\/wp-json\\/wc\\/v3\\/customers\\/1\"}]}}
+            [Response] => Array
+                (
+                    [Code] => 404
+                    [Message] => Not Found
+                    [Headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [content-type] => text/html; charset=utf-8
+                                    [content-length] => 160
+                                    [date] => Tue, 22 Aug 2023 04:42:36 GMT
+                                    [content-security-policy] => default-src 'none'
+                                    [x-dns-prefetch-control] => off
+                                    [expect-ct] => max-age=0
+                                    [strict-transport-security] => max-age=15552000
+                                    [x-download-options] => noopen
+                                    [x-content-type-options] => nosniff
+                                    [x-permitted-cross-domain-policies] => none
+                                    [referrer-policy] => no-referrer-when-downgrade
+                                    [x-xss-protection] => 0
+                                    [vary] => Accept-Encoding
+                                    [x-cache] => Error from cloudfront
+                                    [via] => 1.1 843c2012772a24994ef21de01dc4441e.cloudfront.net (CloudFront)
+                                    [x-amz-cf-pop] => BOM78-P6
+                                    [x-amz-cf-id] => SZIsAODG4ARM1_8XnrXMmaQXvOKwIQiQvKX8sHh43dsYBOXAlm0Q0w==
+                                )
+
+                        )
+
+                    [Body] => <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /@testing12354/invite</pre>
+</body>
+</html>
+
+                )
+
+        )
+
+)
+

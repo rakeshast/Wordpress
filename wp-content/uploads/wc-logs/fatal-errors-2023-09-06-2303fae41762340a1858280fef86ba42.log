@@ -1,0 +1,447 @@
+2023-09-06T06:07:44+00:00 CRITICAL Uncaught Error: Call to undefined function wc_create_product() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:36
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(54): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin(false)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_testin...', false)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('testing/testing...', 'http://localhos...', false)
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 36
+
+2023-09-06T06:07:45+00:00 CRITICAL Uncaught Error: Call to undefined function wc_create_product() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:36
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(54): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_testin...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 36
+
+2023-09-06T06:07:45+00:00 CRITICAL Uncaught Error: Call to undefined function wc_create_product() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:36
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(54): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_testin...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 36
+
+2023-09-06T06:09:06+00:00 CRITICAL Uncaught Error: Call to undefined function wc_insert_product() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(61): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin(false)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_testin...', false)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('testing/testing...', 'http://localhos...', false)
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 37
+
+2023-09-06T06:09:07+00:00 CRITICAL Uncaught Error: Call to undefined function wc_insert_product() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(61): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_testin...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 37
+
+2023-09-06T06:09:07+00:00 CRITICAL Uncaught Error: Call to undefined function wc_insert_product() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:37
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(61): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_testin...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 37
+
+2023-09-06T06:14:19+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product::set_type() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:30
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(46): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin(false)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_testin...', false)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('testing/testing...', 'http://localhos...', false)
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 30
+
+2023-09-06T06:14:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product::set_type() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:30
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(46): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_testin...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 30
+
+2023-09-06T06:14:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product::set_type() in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php:30
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php(46): create_wallet_recharge_product()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_recharge_plugin('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_testin...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/testing/testing.php on line 30
+
+2023-09-06T08:56:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T08:56:08+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T08:56:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T08:56:24+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T08:56:42+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T08:57:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T08:57:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T09:08:58+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T09:09:40+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php:90
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): add_custom_field('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/template.php(787): require('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/opt/lampp/htdo...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#8 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#9 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#10 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/wc-modifications.php on line 90
+
+2023-09-06T10:34:38+00:00 CRITICAL syntax error, unexpected identifier "system", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/wallet system.php on line 80
+
+2023-09-06T10:34:39+00:00 CRITICAL syntax error, unexpected identifier "system", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/wallet system.php on line 80
+
+2023-09-06T10:34:39+00:00 CRITICAL syntax error, unexpected identifier "system", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/wallet system.php on line 80
+
+2023-09-06T10:36:10+00:00 CRITICAL syntax error, unexpected identifier "system", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/wallet-system.php on line 80
+
+2023-09-06T10:36:11+00:00 CRITICAL syntax error, unexpected identifier "system", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/wallet-system.php on line 80
+
+2023-09-06T10:36:11+00:00 CRITICAL syntax error, unexpected identifier "system", expecting "(" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/wallet-system.php on line 80
+
+2023-09-06T10:36:51+00:00 CRITICAL syntax error, unexpected identifier "SYSTEM_VERSION" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/includes/class-wallet system.php on line 71
+
+2023-09-06T10:36:52+00:00 CRITICAL syntax error, unexpected identifier "SYSTEM_VERSION" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/includes/class-wallet system.php on line 71
+
+2023-09-06T10:36:52+00:00 CRITICAL syntax error, unexpected identifier "SYSTEM_VERSION" in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet system/includes/class-wallet system.php on line 71
+
+2023-09-06T10:46:15+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator::activate()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc(false)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_wallet...', false)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://localhos...', false)
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 33
+
+2023-09-06T10:46:16+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator::activate()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 33
+
+2023-09-06T10:46:16+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator::activate()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 33
+
+2023-09-06T10:48:28+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator::activate()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc(false)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_wallet...', false)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://localhos...', false)
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 33
+
+2023-09-06T10:48:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator::activate()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 33
+
+2023-09-06T10:48:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:33
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator::activate()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 33
+
+2023-09-06T11:21:01+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/includes/class-wallet-system-for-wc-helper.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:79
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc(false)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_wallet...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://localhos...', false)
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 79
+
+2023-09-06T11:21:02+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/includes/class-wallet-system-for-wc-helper.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:79
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 79
+
+2023-09-06T11:21:02+00:00 CRITICAL Uncaught Error: Failed opening required '/opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/includes/class-wallet-system-for-wc-helper.php' (include_path='.:/opt/lampp/lib/php') in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:79
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 79
+
+2023-09-06T11:26:06+00:00 CRITICAL Uncaught Error: Method name must be a string in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:97
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc(false)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_wallet...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://localhos...', false)
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 97
+
+2023-09-06T11:26:07+00:00 CRITICAL Uncaught Error: Method name must be a string in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:97
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 97
+
+2023-09-06T11:26:07+00:00 CRITICAL Uncaught Error: Method name must be a string in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:97
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 97
+
+2023-09-06T11:27:01+00:00 CRITICAL Uncaught Error: Class "QRcode" not found in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-helper.php:84
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(97): Wallet_System_For_Wc_Helper->wallet_system_for_wc_generate_qrcode(15)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc(false)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_wallet...', false)
+#7 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://localhos...', false)
+#8 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-helper.php on line 84
+
+2023-09-06T11:27:02+00:00 CRITICAL Uncaught Error: Class "QRcode" not found in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-helper.php:84
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(97): Wallet_System_For_Wc_Helper->wallet_system_for_wc_generate_qrcode(15)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-helper.php on line 84
+
+2023-09-06T11:27:02+00:00 CRITICAL Uncaught Error: Class "QRcode" not found in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-helper.php:84
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(97): Wallet_System_For_Wc_Helper->wallet_system_for_wc_generate_qrcode(15)
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(38): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#4 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-helper.php on line 84
+
+2023-09-06T11:51:37+00:00 CRITICAL Uncaught Error: Call to a member function wallet_system_for_wc_generate_qrcode() on null in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:99
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(40): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc(false)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/includes/plugin.php(693): do_action('activate_wallet...', false)
+#6 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(58): activate_plugin('wallet-system-f...', 'http://localhos...', false)
+#7 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 99
+
+2023-09-06T11:51:38+00:00 CRITICAL Uncaught Error: Call to a member function wallet_system_for_wc_generate_qrcode() on null in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:99
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(40): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 99
+
+2023-09-06T11:51:38+00:00 CRITICAL Uncaught Error: Call to a member function wallet_system_for_wc_generate_qrcode() on null in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php:99
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php(40): Wallet_System_For_Wc_Activator->create_qr_code_for_every_user()
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/wallet-system-for-wc.php(49): Wallet_System_For_Wc_Activator->activate()
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): activate_wallet_system_for_wc('')
+#3 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#4 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/plugins.php(194): do_action('activate_wallet...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/includes/class-wallet-system-for-wc-activator.php on line 99
+

@@ -1,0 +1,165 @@
+2023-08-17T04:33:30+00:00 CRITICAL Uncaught ArgumentCountError: 6 arguments are required, 5 given in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/cart/cart.php:63
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/cart/cart.php(63): sprintf('<a href="%s" cl...', 'http://localhos...', 'Remove Album fr...', '232', 'woo-album')
+#1 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#3 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#5 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(395): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /opt/lampp/htdocs/wordpress/wp-includes/shortcodes.php(235): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#8 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): do_shortcode('[woocommerce_ca...')
+#9 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters('[woocommerce_ca...', Array)
+#10 /opt/lampp/htdocs/wordpress/wp-includes/post-template.php(256): apply_filters('the_content', '<!-- wp:shortco...')
+#11 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/page.php(13): the_content()
+#12 /opt/lampp/htdocs/wordpress/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/wordpress/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#14 /opt/lampp/htdocs/wordpress/index.php(17): require('/opt/lampp/htdo...')
+#15 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/woocommerce/cart/cart.php on line 63
+
+2023-08-17T06:41:45+00:00 CRITICAL syntax error, unexpected token "require_once" in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/functions.php on line 76
+
+2023-08-17T07:24:07+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_order_pdf_generate" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-08-17T07:24:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_order_pdf_generate" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-08-17T07:24:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "custom_order_pdf_generate" not found or invalid function name in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php:310
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php on line 310
+
+2023-08-17T07:28:33+00:00 CRITICAL Unclosed '{' on line 10 in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 36
+
+2023-08-17T07:29:18+00:00 CRITICAL Unclosed '{' on line 10 in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 35
+
+2023-08-17T08:37:20+00:00 CRITICAL Uncaught Error: Class "FPDF" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(18): generate_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): custom_generate_pdf_callback('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 29
+
+2023-08-17T08:38:02+00:00 CRITICAL Uncaught Error: Class "FPDF" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(18): generate_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): custom_generate_pdf_callback('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 29
+
+2023-08-17T08:39:16+00:00 CRITICAL Uncaught Error: Class "FPDF" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(18): generate_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): custom_generate_pdf_callback('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_custom_...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 29
+
+2023-08-17T08:55:07+00:00 CRITICAL Uncaught Error: Class "WC_PDF_Invoice" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_and_download_invoice_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 38
+
+2023-08-17T08:55:15+00:00 CRITICAL Uncaught Error: Class "WC_PDF_Invoice" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_and_download_invoice_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 38
+
+2023-08-17T09:00:56+00:00 CRITICAL Uncaught Error: Class "WC_PDF_Invoice" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_and_download_invoice_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 38
+
+2023-08-17T09:01:28+00:00 CRITICAL Uncaught Error: Class "WC_PDF_Invoice" not found in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:38
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_and_download_invoice_pdf(271)
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 38
+
+2023-08-17T09:32:50+00:00 CRITICAL Uncaught Error: Call to undefined method Automattic\WooCommerce\Admin\Overrides\Order::get_billing_address() in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:10
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(54): generate_pdf('271')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_custom_order_pdf('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 10
+
+2023-08-17T09:51:33+00:00 CRITICAL Uncaught ArgumentCountError: tempnam() expects exactly 2 arguments, 1 given in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:62
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(62): tempnam('/tmp/order_271....')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_custom_order_pdf('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 62
+
+2023-08-17T09:54:59+00:00 CRITICAL Uncaught ArgumentCountError: tempnam() expects exactly 2 arguments, 1 given in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:65
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(65): tempnam('/tmp/order_271....')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_custom_order_pdf('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 65
+
+2023-08-17T09:55:13+00:00 CRITICAL Uncaught ArgumentCountError: tempnam() expects exactly 2 arguments, 1 given in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:65
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php(65): tempnam('/tmp/order_271....')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_custom_order_pdf('')
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 65
+
+2023-08-17T10:31:59+00:00 CRITICAL Uncaught Error: Cannot use object of type Automattic\WooCommerce\Admin\Overrides\Order as array in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php:43
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): generate_order_pdf('')
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/wordpress/wp-admin/admin-ajax.php(188): do_action('wp_ajax_generat...')
+#4 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/themes/simple-woocommerce-theme/include/pdf-order-generator.php on line 43
+

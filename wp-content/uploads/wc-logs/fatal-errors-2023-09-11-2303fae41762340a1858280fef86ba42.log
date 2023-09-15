@@ -1,0 +1,33 @@
+2023-09-11T07:44:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wallet_System_For_Wc_Admin_Helper::__construct(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php on line 183 and exactly 2 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin-helper.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php(183): Wallet_System_For_Wc_Admin_Helper->__construct()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Wallet_System_For_Wc_Admin->wallet_system_for_wc_save_user_field(1)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/user-edit.php(148): do_action('personal_option...', 1)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/profile.php(18): require_once('/opt/lampp/htdo...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin-helper.php on line 29
+
+2023-09-11T07:45:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wallet_System_For_Wc_Admin_Helper::__construct(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php on line 183 and exactly 2 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin-helper.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php(183): Wallet_System_For_Wc_Admin_Helper->__construct()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Wallet_System_For_Wc_Admin->wallet_system_for_wc_save_user_field(1)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/user-edit.php(148): do_action('personal_option...', 1)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/profile.php(18): require_once('/opt/lampp/htdo...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin-helper.php on line 29
+
+2023-09-11T07:46:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Wallet_System_For_Wc_Admin_Helper::__construct(), 0 passed in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php on line 183 and exactly 2 expected in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin-helper.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin.php(183): Wallet_System_For_Wc_Admin_Helper->__construct()
+#1 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(310): Wallet_System_For_Wc_Admin->wallet_system_for_wc_save_user_field(1)
+#2 /opt/lampp/htdocs/wordpress/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /opt/lampp/htdocs/wordpress/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /opt/lampp/htdocs/wordpress/wp-admin/user-edit.php(148): do_action('personal_option...', 1)
+#5 /opt/lampp/htdocs/wordpress/wp-admin/profile.php(18): require_once('/opt/lampp/htdo...')
+#6 {main}
+  thrown in /opt/lampp/htdocs/wordpress/wp-content/plugins/wallet-system-for-wc/admin/class-wallet-system-for-wc-admin-helper.php on line 29
+
